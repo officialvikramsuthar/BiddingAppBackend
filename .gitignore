@@ -1,0 +1,90 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+*.egg
+*.egg-info
+.eggs
+
+# Django
+*.log
+local_settings.py
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PyCharm
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# VSCode
+.vscode/
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/__pycache__
+**/migrations/*.so
+
+# MySQL
+*.sql
+
+# Postgres
+*.pgsql
+
+# Environments
+.env
+.env.*
+!env.example
+
+# Staticfiles
+staticfiles/
+static/
+media/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Deployment
+.pytest_cache/
+.pytest_cache/*
+celerybeat-schedule
+django_extensions
+
+# Pyre type checker
+.pyre/
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.cache
